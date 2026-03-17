@@ -1,0 +1,111 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Lora , serif;
+    padding: 0;
+    background: #fff;
+    color: #000;
+    min-width: 400px; /* Ensure the body has a minimum width */
+}
+
+/* Smart Phone */
+@media screen and (max-width: 767px) {
+ 
+}
+/* Tablet */
+@media screen and (min-width: 768) and (max-width: 1023px) {
+   
+}
+/* Desktop */
+@media screen and (min-width: 1024px) {
+}
+    
+    header {
+        width: 100%;
+        border-bottom: 3px solid #f0f0f0; /* Line under the header */   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .banner {
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap: 24px;
+            padding: 20px;
+        }
+        /* Logo section */
+        .logo { 
+            width: 50 px;
+            display: flex;
+            color: black;
+            font-size: 1.5em;
+            font-weight: normal;
+            text-decoration: none;
+        }
+        .logo img {
+            width: 200px; /* Adjust the size of the logo */
+            height: auto;
+        }
+
+        /* Menu section */
+        .nav-links {
+            min-width: 360px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            
+        }
+
+        /* Navigation links */
+        .nav-links a {
+            color: black;
+            font-size: 0.8 em;
+            text-decoration: none;
+            padding: 10px 10px; /* Padding around the links */
+            
+        }
+        .nav-links a:hover {
+            background-color: #f0f0f0; /* Change background on hover */
+            color: #000; /* Change text color on hover */
+        }
+
+
+    main {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin : 0 auto;
+        min-width: 360px; /* Ensure the main content has a minimum width */
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        margin : 0 auto;
+        padding: 10px;
+        font-size: 1em;
+        text-align: center;
+        background-color: #f9f9f9;
+    }
+        .adress {
+            margin: 20px auto;
+            text-align: center;
+            font-size: 1em;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
+        footer p {
+            font-size: 0.8em;
+            color: #555;
+        }

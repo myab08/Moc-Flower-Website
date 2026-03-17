@@ -1,0 +1,223 @@
+.landing {
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+.landing img {
+    margin : 0 auto;
+    width: 100%;
+    height: auto;
+}
+.content {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sumenh {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.mission {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+}
+.mission-item {
+    flex-direction: column;
+    display: flex;
+    width: 300px;
+    padding: 20px;
+    text-align:center;
+    
+}
+.mission-item img {
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+.mission-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+.mission-item p {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(225, 234, 244, 1)
+
+    
+}
+    .gallery img {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        
+    }
+.content h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+    color: #333;
+}
+.content p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px auto;
+}
+/* Conteneur principal */
+.aboutus {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f5f1eb;
+}
+
+.aboutus article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  margin-bottom: 60px;
+  max-width: 1200px;
+  flex-wrap: wrap; /* Pour que ça wrap en mobile */
+}
+
+/* Bloc image */
+.aboutus-image {
+  flex: 1 1 50%;
+  min-width: 360px ;
+  
+}
+
+.aboutus-image img {
+  display: block;
+}
+
+/* Bloc contenu */
+.aboutus-content {
+  flex: 1 1 50%;
+  max-width: 690px;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.aboutus-content h2 {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.aboutus-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.quote {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    
+}
+.quote h3 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #333;
+}
+.quote input[type="button"] {
+    background-color: rgba(40, 44, 47, 1);
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 0.9em;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    }
+    .quote input[type="button"]:hover {
+    background-color: #333;
+    }
+    .quote input[type="button"]:active {
+    background-color: #555;
+    }
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+  .aboutus article {
+    flex-direction: column;
+    
+  }
+
+  .aboutus-image,
+  .aboutus-content {
+    flex: 1 1 100%;
+    width: 100%;
+    padding: 20px 0;
+  }
+    .aboutus-image img {
+        width: 100%;
+        height: auto;
+    }
+
+  .aboutus-content {
+    padding: 20px ;
+  }
+
+}
+.contact {
+    width: 100%;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.contact div {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+  padding-bottom: 50px;
+   flex: 1 1 50%;
+   min-width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;     
+}
